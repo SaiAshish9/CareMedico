@@ -1,0 +1,43 @@
+{
+  "name": "caremedico",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3-scale": "^3.2.1",
+    "gh-pages": "^2.2.0",
+    "react": "^16.8.6",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.9.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-simple-maps": "^2.0.0",
+    "react-tooltip": "^4.1.3",
+    "react-youtube": "^7.9.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
