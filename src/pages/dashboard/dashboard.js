@@ -387,10 +387,10 @@ Trends
 </p>
 
 
-<div style={{width: '100%',padding:40}} > 
+<div style={{width: '100%',padding:40,textAlign:'center',margin:'auto'}} > 
 
 
-<svg ref={svgRef}>
+<svg ref={svgRef} style={{textAlign:'center'}}>
             <g className="x-axis" />
             <g className="y-axis" />
           </svg>
