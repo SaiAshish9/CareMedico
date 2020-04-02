@@ -214,7 +214,7 @@ Your Safety is in Your Hands. Stay At Home
 
   circleData.map((data,key)=>(
 <div key={key} style={{margin:'auto',marginRight:5}}>
-<div  className='circle123'  style={{width:'100px',height:'100px',border:`5px solid ${data.color}`,borderRadius:'50%'}} >
+<div  className='circle123'  style={{width:'100px',height:'100px',borderTop:`5px solid ${data.color}`,borderBottom:`5px solid ${data.color}`,borderRadius:'50%'}} >
 </div>
 <h6 style={{  position:'relative',bottom:'9vh', color:`${data.color}`,fontWeight:'bolder',textAlign:'center'}} >
 
