@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
 <div style={{position:'absolute',right:'2rem',display:'flex',alignItems:'end',justifyContent:'space-between'}}>
-
+{/* 
 <Link to="/dashboard" style={{textDecoration:'none'}}>
 
 <h6 style={{color:'#8C727B',fontSize:'0.7rem',cursor:'pointer'}}>
@@ -37,7 +37,7 @@ Dashboard
 </h6>
 
 
-</Link>
+</Link> */}
 
 </div>
             

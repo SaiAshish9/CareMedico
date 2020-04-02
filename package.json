@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "d3": "^5.15.1",
     "d3-scale": "^3.2.1",
     "gh-pages": "^2.2.0",
     "react": "^16.8.6",

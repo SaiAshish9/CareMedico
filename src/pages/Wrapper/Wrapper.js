@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/Footer'
 
 const Wrapper = ({children}) => {
     return (
-<React.Fragment>
+<React.Fragment style={{overflowX: 'hidden'}}>
 
     <Navbar/>
     {children}
